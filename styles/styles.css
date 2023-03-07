@@ -1,0 +1,59 @@
+body, html {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+.nav-section {
+    /* min-width: 800px; */
+    background: rgba(34, 34, 35, 0.8);
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.logo-link {
+    display: inline-block;
+    margin-right: 98px;
+}
+
+.logo {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.nav {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2px;
+}
+
+.nav__link {
+    display: inline-block;
+    width: 135px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    margin-right: 40px;
+
+    font-size: 16px;
+    color: #e6e6e6;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    text-decoration: 1px underline solid white;
+}
+
+.section {
+    margin-bottom: 30px;
+    border: 1px solid red;
+    height: 900px;
+}
+
